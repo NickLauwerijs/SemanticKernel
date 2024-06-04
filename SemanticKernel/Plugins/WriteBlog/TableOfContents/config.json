@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "type": "completion",
+  "name": "TableOfContents",
+  "description": "A function that generates the table of content based on a blog title and subtitle",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 4000,
+      "temperature": 0
+    }
+  },
+  "input_variables": [
+    {
+      "name": "title",
+      "description": "Title of the blog",
+      "required": true
+    },
+    {
+      "name": "subtitle",
+      "description": "Subtitle of the blog",
+      "required": true
+    }
+  ]
+}

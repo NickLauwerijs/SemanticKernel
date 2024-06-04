@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "type": "completion",
+  "name":  "Title",
+  "description": "A function that generates a blog title",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 4000,
+      "temperature": 0
+    }
+  },
+  "input_variables": [
+    {
+      "name": "topic",
+      "description": "The topic to generate a blog for",
+      "required": true
+    }
+  ]
+}

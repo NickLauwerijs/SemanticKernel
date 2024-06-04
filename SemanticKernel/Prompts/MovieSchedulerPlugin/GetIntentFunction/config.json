@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "name": "GetIntentFunction",
+  "type": "completion",
+  "description": "Gets the intent of the user",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 4000,
+      "temperature": 0
+    }
+  },
+  "input_variables": [
+    {
+      "name": "choices",
+      "description": "choices that the AI can choose from",
+      "required": true
+    },
+    {
+      "name": "request",
+      "description": "the request that the user is making",
+      "required": true
+    },
+    {
+      "name": "history",
+      "description": "the history of the conversation",
+      "required": true
+    }
+  ]
+}

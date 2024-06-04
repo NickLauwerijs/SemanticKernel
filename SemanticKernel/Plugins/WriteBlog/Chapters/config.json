@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "type": "completion",
+  "name": "Chapters",
+  "description": "A function that generates chapters based on table of contents",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 4000,
+      "temperature": 0
+    }
+  },
+  "input_variables": [
+    {
+      "name": "tableOfContents",
+      "description": "Table of contents of the blog",
+      "required": true
+    }
+  ]
+}

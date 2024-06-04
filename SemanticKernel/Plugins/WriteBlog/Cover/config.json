@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "type": "completion",
+  "name": "Title",
+  "description": "A function that generates a description of how a blog image should look like",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 4000,
+      "temperature": 0
+    }
+  },
+  "input_variables": [
+    {
+      "name": "title",
+      "description": "The title the image should be generated for",
+      "required": true
+    },
+    {
+      "name": "subtitle",
+      "description": "The subtitle the image should be generated for",
+      "required": true
+    }
+  ]
+}

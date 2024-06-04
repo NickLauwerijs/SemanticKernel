@@ -1,0 +1,12 @@
+name: getMovieDetails
+description: Gets details about a movie that the user is interested in.
+template: |
+   Provide details about {{movieName}} , provide details in following format : TITLE and then bulletpoints for actors, plot, director
+template_format: handlebars
+input_variables:
+  - name:          movieName
+    description:   The name of the movie the user is requesting information for.
+execution_settings:
+  default:
+    max_tokens:   10
+    temperature:  0

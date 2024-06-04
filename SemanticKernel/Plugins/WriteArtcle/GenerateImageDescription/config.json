@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "type": "completion",
+  "description": "A function that generates content based on article name and subtitle",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 4000,
+      "temperature": 0
+    }
+  },
+  "input_variables": [
+    {
+      "name": "title",
+      "description": "Title of the article",
+      "required": true
+    },
+    {
+      "name": "subtitle",
+      "description": "Subtitle of the article",
+      "required": true
+    }
+  ]
+}
